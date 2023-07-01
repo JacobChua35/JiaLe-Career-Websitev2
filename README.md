@@ -1,2 +1,2 @@
 # JiaLe-Career-Website
-A career webbsite for Jia Le
+A career website for Jia Le
