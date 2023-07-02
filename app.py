@@ -3,7 +3,7 @@ from database import load_jobs_from_db
 
 app = Flask(__name__)
 
-# No Longer needed the code below it hardcoded,I used SQL Database to store the List of jobs inside and # I print it out instead.
+# No Longer needed the code below it hardcoded,I used SQL Database to store the List # of jobs inside and # I print it out instead.
 
 #JOBS = [
 #  {
@@ -45,7 +45,7 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def hello_jiale():
+def hello_world():
   jobs_list = load_jobs_from_db()
   return render_template('home.html', jobs=jobs_list, company_name='Jia Le')
 
